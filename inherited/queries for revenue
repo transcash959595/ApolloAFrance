@@ -1,0 +1,433 @@
+SELECT sum(`Credit`) FROM `accountfrance` WHERE `Debit` !='Fees' and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '20.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '50.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '100.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '150.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '300.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` = '500.00'  and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) FROM `loadingnew` WHERE `Description` = 'Voucher' and  `Req_code` < '50.00' and  `Req_code` != '20.00' and `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT count(*) ,sum(`Credit`) FROM `loadingnew` WHERE `Description` = 'Credit Card' and   `Date` >='07/01/2015' and `Date` <='07/31/2015'
+SELECT COUNT( * ) , SUM(  `Credit` ) FROM  `loadingnew` WHERE  `Description` =  'Bank Transfer'AND  `Date` >=  '07/01/2015' AND  `Date` <=  '07/31/2015'
+
+
+
+
+
+//for  and fees 
+
+
+SELECT sum(`Credit`) from `accountfrance` where `Debit` = 'Fees' AND `Req_code` = 'Total' and `Date` >= '03/01/2016' AND `Date` <= '03/31/2016' 
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '07/01/2015' AND  `Date` <=  '07/31/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-07-01'
+AND  `LOCALDATE` <=  '2015-07-31'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-07-01'
+AND  `LOCALDATE` <=  '2015-07-31'
+
+
+
+SELECT SUM(  `debit` ) 
+FROM  `vssfee` 
+WHERE  `Date` >=  '07/01/2015' AND  `Date` <=  '07/31/2015'
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '07/01/2015' AND  `Date` <=  '07/31/2015'
+
+
+
+
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '08/01/2015' AND  `Date` <=  '08/31/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-08-01'
+AND  `LOCALDATE` <=  '2015-08-31'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-08-01'
+AND  `LOCALDATE` <=  '2015-08-31'
+
+
+
+SELECT SUM(  `Credit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '08/01/2015' AND  `Date` <=  '08/31/2015'
+
+
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '08/01/2015' AND  `Date` <=  '08/31/2015'
+
+
+
+
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '09/01/2015' AND  `Date` <=  '09/30/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-09-01'
+AND  `LOCALDATE` <=  '2015-09-30'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-09-01'
+AND  `LOCALDATE` <=  '2015-09-30'
+
+
+
+SELECT SUM(  `Credit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '09/01/2015' AND  `Date` <=  '09/30/2015'
+
+
+
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '09/01/2015' AND  `Date` <=  '09/30/2015'
+
+
+
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '10/01/2015' AND  `Date` <=  '10/31/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-10-01'
+AND  `LOCALDATE` <=  '2015-10-31'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-10-01'
+AND  `LOCALDATE` <=  '2015-10-31'
+
+
+
+SELECT SUM(  `Credit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '10/01/2015' AND  `Date` <=  '10/31/2015'
+
+
+
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '10/01/2015' AND  `Date` <=  '10/31/2015'
+
+
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '11/01/2015' AND  `Date` <=  '11/30/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-11-01'
+AND  `LOCALDATE` <=  '2015-11-30'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-11-01'
+AND  `LOCALDATE` <=  '2015-11-30'
+
+
+
+SELECT SUM(  `Credit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '11/01/2015' AND  `Date` <=  '11/30/2015'
+
+
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '11/01/2015' AND  `Date` <=  '11/30/2015'
+
+
+
+
+SELECT SUM(  `credit` ) 
+FROM  `accountfrance` 
+WHERE  `Debit` !=  'Fees'
+AND  `Date` >=  '12/01/2015' AND  `Date` <=  '12/31/2015'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%Frais%'
+AND  `LOCALDATE` >=  '2015-12-01'
+AND  `LOCALDATE` <=  '2015-12-31'
+
+SELECT SUM(  `AMTBILL` ) 
+FROM  `adjust` 
+WHERE  `Description` like '%du code PIN%'
+AND  `LOCALDATE` >=  '2015-12-01'
+AND  `LOCALDATE` <=  '2015-12-31'
+
+
+
+SELECT SUM(  `Credit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '12/01/2015' AND  `Date` <=  '12/31/2015'
+
+
+
+SELECT SUM(  `Debit` ) 
+FROM  `vssfee` 
+WHERE   `Date` >=  '12/01/2015' AND  `Date` <=  '12/31/2015'
+
+
+
+
+
+//for interchange 
+
+
+
+SELECT SUM(  `debit` ) 
+FROM  `vssfee` 
+WHERE `DATE` >=  '2015-07-01'
+AND  `DATE` <=  '2015-07-31'
+
+
+
+
+
+
+
+PROGRAMID = TCF001  (Black Card)
+CARDEVENT = 7  (Status Change)
+OLDSTATCODE = 02  (Inactive)
+STATCODE = 00 (Normal)
+
+Select count(*) from `cardsalesimport` where `PROGRAMID` ='TCF001' and 	`CARDEVENT` ='7' and `OLDSTATCODE` ='02' and `STATCODE`	 ='00'  AND  `LOCALDATE` >=  '2015-07-01'
+AND  `LOCALDATE` <=  '2015-07-31'
+
+
+
+SELECT sum(`AVLBAL`)  FROM `accountexception` WHERE `DATELOCAL` >='2015-07-01' and `DATELOCAL` <='2015-07-31'
+
+SELECT SUM(`AMTTXN` ) 
+FROM  `chrgback` 
+WHERE  `LOCALdate` >=  '2015-07-01'
+AND  `LOCALdate` <=  '2015-07-31'
+
+
+
+
+// queries to do multiple select queries with one field this is basically for loading detailed information 
+
+
+
+
+SELECT (
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '20.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v20', (  -- this is to select the number of vouchers from the data base 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '20.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum20', (     
+ 
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '50.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v50', (    -- this is to count the number of vouchers that is $50 
+
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '50.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum50', (     -- this is to select the sum of the type of vouchers example here is sum for $50  vouchers  
+ 
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '100.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v100' ,   (  -- this is to count the number of vouchers which is $100 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '100.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum100', (     -- this is to select the sum of the type of vouchers example here is sum for $100 vouchers  
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '150.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v150',   (   -- this is to count the number of vouchers which is $150 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '150.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum150', (     -- this is to select the sum of the type of vouchers example here is sum for $150 vouchers  
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '200.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v200' ,(    -- this is to count the number of vouchers which is $200 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '200.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum200', (     -- this is to select the sum of the type of vouchers example here is sum for $200 vouchers  
+
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '300.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v300'  ,  (  -- this is to count the number of vouchers which is $300 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '300.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum300' , (    -- this is to select the sum of the type of vouchers example here is sum for $300 vouchers  
+
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '500.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'v500'  ,  (  -- this is to count the number of vouchers which is $500 
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Voucher'
+AND  `Req_code` =  '500.00'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sum500' , (   -- this is to select the sum of the type of vouchers example here is sum for $500 vouchers  
+
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Bank Transfer'
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'nobktrn'  ,  (  -- this is to count the number of Bank Transfer
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Bank Transfer'
+
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sumbktrn' , (    -- this is to select the sum of the Bank Transfer  
+
+
+
+
+SELECT COUNT( * ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Credit Card'
+
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'creditcard'  ,  (  -- this is to count the number of Credit Card
+
+SELECT SUM(  `credit` ) 
+FROM  `loadingnew` 
+WHERE  `Description` =  'Credit Card'
+
+AND  `Date` >=  '07/01/2015'
+AND  `Date` <=  '07/31/2015'
+) AS  'sumcreditcard'     -- this is to select the sum of Credit Card
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+

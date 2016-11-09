@@ -1,0 +1,8 @@
+CREATE PROCEDURE GETALL ()
+BEGIN
+	
+SELECT COUNT( * ) 
+FROM  loadingnew 
+
+
+END ;
