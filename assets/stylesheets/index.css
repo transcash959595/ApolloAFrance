@@ -1,0 +1,2446 @@
+
+  .paddtittle a {
+text-decoration: none;
+color: #00FF00;
+} 
+  
+#centerTable
+{
+
+height:40%;
+width:40%;
+margin-left:31%;
+background-color:#30483A;
+margin-top:9%;
+float:left;
+}  
+#transcashlogop
+{
+color:#FFFFFF; 
+font-family:Kimberley;
+ margin-top:7%;
+ font-size:280%;
+ margin-left:67%;
+
+
+}
+.loginul
+{
+
+float:left;
+width:100%;
+
+}  
+
+.loginlist
+{
+float:left;
+width:40%;
+text-align:center;
+font-family:book antigua;
+font-weight:bold;
+display:inline;
+
+}
+ 
+ .indextext
+ {
+ 
+ float:left;
+width:95%;
+height:27px;
+border-radius:10px;
+margin-left:9%;
+
+
+ 
+ 
+ }
+ 
+ 
+#loginsubmit
+{
+margin-left:23%;
+
+} 
+.indexbuttons
+{
+ float:left;
+width:100%;
+height:33px;
+border-radius:10px;
+background-color:#F89A34;
+}
+h2 {  
+font-family:Arial,Helvetica,sans-serif;
+font-style:normal;
+color: #00FF00;
+vertical-align:middle;
+}
+
+ 
+body {
+    font-family: "Arial","Helvetica","Verdana","sans-serif";
+    font-size: 15px;
+	background-color:#FFFFFF;
+	font-family:book antigua;
+} 
+  .buttonReportGn
+  {
+  
+  width:200px;
+  height: 30px;
+  margin-top:5px;
+  }
+
+ 
+  .firstmenu
+  {
+  
+    margin-left: 23px;
+    margin-top: 19px;
+	  width: 840px;
+  
+  }
+ 
+  
+  
+  .resulhistoryclass
+  {
+  width:725px;
+  }
+  
+#selectdate
+
+{
+height:60px;
+width:1100px;
+background-color: #AD8BFE;
+margin-left:314px;
+color:#FFFFFF;
+font-weight:bold;
+}  
+  
+#datepickerbankstart
+{
+float:left;
+width: 140px;
+
+border-radius:10px;
+}  
+
+#datepickerbankend
+{
+float:left;
+width: 140px;
+
+border-radius:10px;
+}  
+
+
+.dateinnerdiv
+{
+width:200px;
+height:50px;
+float:left;
+margin-left:10px;
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+
+}
+body
+{
+margin:0;
+padding:0;
+}
+#accountdetails
+
+{
+
+width:150px;
+height:30px;
+float:left;
+margin-left:10px;
+margin-top:30px;
+
+}
+  #reportGenerate
+  {
+  
+  width: 1351px;
+  
+  height: 20%;
+  background-color:#FFE4C4;
+  
+  
+  }
+  
+ .inputxtfetchdata
+ {
+  height: 35px;
+    margin-left: 1px;
+    margin-right: -5px;
+    overflow: auto;
+    width: 138px;
+  
+ }
+  
+  .inputxtfetchdatanm
+  {
+    height: 35px;
+    margin-left: 1px;
+    margin-right: -5px;
+    overflow: auto;
+    width: 136px;
+	color:brown;
+  }
+  
+  
+  
+  
+  
+  
+
+#ui-datepicker-div
+{
+width:130px;
+color:burlyWood;
+border-radius:10px;
+}
+
+#ui-datepicker-div a
+{
+text-decoration: none;
+color:#917689;
+}
+ td
+{
+border-left-style:solid;
+border-top-style:solid;
+border-width: 1px;
+margin-left: -22px;
+border-color: burlyWood;
+width:20px;
+height:20px;}
+
+tr
+{
+width:20px;
+height:20px;
+font-size:10px;
+
+}
+
+.ui-datepicker-title
+{
+margin-top: 20px;
+text-align: center;
+}
+.ui-datepicker-next.ui-corner-all
+{
+
+float:right;
+margin-left;40px;
+}
+
+.ui-datepicker-calendar
+
+{
+margin-left:-5px;
+font-size:10px;
+
+}
+
+.ui-datepicker-days-cell-over  
+{
+
+
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all
+{
+
+font-size:12px;
+}
+
+.ui-datepicker-prev 
+{
+float:left;}
+
+.ui-icon-ui-icon-circle-triangle-e
+
+{
+float:right;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-corner-all {
+}
+.ui-widget-content {
+    background: url("../images/?new=eeeeee&w=1&h=100&f=png&q=100&fltr[]=over|textures/03_highlight_soft.png|0|0|100") repeat-x scroll 50% top #EEEEEE;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+}
+.ui-widget {
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+.ui-widget-content {
+    background: url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-datepicker {
+    display: none;
+    padding: 0.2em 0.2em 0;
+    width: 17em;
+}
+.ui-helper-clearfix {
+}
+body {
+    font-family: "Arial","Helvetica","Verdana","sans-serif";
+    font-size: 15px;
+}
+  
+  
+  .inputxtfetchdatadescription
+  
+  {
+  
+  background: none repeat scroll 0 0 #5B8E28;
+    float: left;
+    height: 100px;
+    margin-left: 1px;
+    width: 135px;
+    overflow:auto;
+    width: 135px;
+	color:white;
+  
+  }
+  
+ #divfortittledescription
+ { 
+ margin-left: 2px;
+ }
+  
+  
+  
+
+#containerreportOutputnm
+{
+margin-top:14px;
+width:1295px;  
+  overflow:auto;
+  height: 500px;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+
+
+}
+
+
+#reportOutputnm
+{
+margin-top:50px;
+width:12376px; 
+  
+  min-height:100px;
+  max-height:500px;
+  background-color:#E0FFFF;  
+  
+}  
+
+ 
+#bankMovements
+{
+
+/*margin-left:137px;*/
+  
+  height: 100%;
+ float:left;
+ margin-left:70px;
+  
+}
+
+
+/*
+#cardholderaccountdiv
+
+{
+
+margin-left:200px;
+float:left;
+
+}
+
+#incomeccountdiv
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+
+
+#bankaccount1div
+{
+float:left;
+}
+
+#bankaccount2div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount3div
+
+{
+float:left;
+
+}
+
+
+#bankaccount4div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount5div
+{
+
+margin-left:200px;
+float:left;
+
+
+}
+
+#bankaccount6div
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+*/
+ #mainContainerMainPage
+ 
+ {
+ 
+ width:1295px;
+  overflow:auto;
+  height: 60%;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+ 
+ 
+ }
+ 
+ #MainTittle
+ {
+ margin-left: 183px;
+    margin-top: 125px;
+    text-align: center;
+    width:900px;
+ 
+ }
+ 
+ 
+ 
+ #Cardreload
+ {
+ margin-left: 100px;
+    margin-top: 25px;
+  
+    width: 421px;
+ }
+ 
+ 
+ .address
+ {
+ 
+ height: 25px;
+    
+    text-align: left;
+    width: 200px;}
+	
+
+.cardreloadgenaral	
+{
+
+ height: 25px;
+    
+    text-align: left;
+    width: 180px;
+	
+}	
+
+.inputxtsmall
+{
+
+height: 25px;
+    margin-left: 6px;
+    text-align: left;
+    width: 100px;
+}
+ 
+ 
+ .cardreloadgenericdivs 
+ {
+  margin-top:10px;
+ 
+ }
+ 
+ #cardnumberinput
+ {
+ 
+ margin-left:40px;
+ }
+ 
+ #cvv
+ {
+ 
+ margin-left:89px;}
+ 
+ 
+ #Expmonth
+ 
+ {
+ margin-left:104px;
+ }
+ 
+ #firstname
+ 
+ {
+ margin-left:143px;
+ }
+ 
+ 
+ #lastnameinput
+ 
+ 
+ {
+  margin-left:103px;
+ 
+ }
+ 
+ 
+ #address1input
+ {
+ margin-left:108px;
+ 
+ }
+ 
+ 
+ #address2input
+ 
+ 
+ {
+ margin-left:108px;
+ 
+ }
+ 
+ 
+ #cityinput
+ 
+ {
+ margin-left:145px;
+ }
+ 
+ 
+ #stateinput
+ 
+ {
+ margin-left:141px;
+ 
+ }
+ 
+ 
+ #zipcodeinput
+ {
+ margin-left:117px;
+ 
+ }
+ 
+ #tccardnumber
+ 
+ {
+ margin-left:18px;
+ 
+ }
+ 
+ 
+ #amounttoload
+ 
+ 
+ {
+ 
+ margin-left:64px;
+ }
+ 
+ 
+ 
+ #totalamountcharged
+ 
+ {
+ margin-left:153px;
+ 
+ }
+ 
+ 
+#MainMenu 
+
+{
+width:1100px;
+height:100px; 
+margin-left:314px;
+background-color:#336600;
+
+
+}
+
+
+#MainMenu li
+
+{
+display:inline;
+
+color:00ff00;
+
+
+
+
+}
+
+
+#MainMenuManpage li {
+    color: #00FF00;
+}
+
+#heading
+{
+
+
+}
+
+#transcashlogo
+{
+
+float: right;
+height: 96px;
+margin-left: 3px;
+margin-right: 0;
+margin-top: 0px;
+width: 157px;
+
+
+}
+
+
+#tabs 
+{
+
+ margin-left: -30px;
+    
+    width: 930px;
+}
+#tabs li
+{
+    display: inline;
+    float: left;
+    
+    margin-left: 11px;
+   
+}
+#messageprint1
+
+{
+
+width:700px;
+color:red;
+}
+
+#print1{display:none;}
+
+
+#verticaltabs
+{
+    border-color: #FFCC66;
+    border-style: solid;
+    float: left;
+    margin-top: 40px;
+    min-height: 387px;
+    width: 160px;
+	border-radius:10px;
+	  margin-left: 45px;
+}
+
+#reserveaccountbtn
+{
+
+float: left;
+}
+
+
+
+.accountbtn
+{
+
+float: left;
+margin-left: 125px;
+}
+
+
+
+
+#histtttory
+{
+    border: medium solid;
+	border-color:#A9F5A9;
+    float: left;
+    height: 130px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 273px;
+	   overflow: auto;
+}
+
+
+
+#historyfunding
+{
+    border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+}
+
+
+#historyincome
+{ border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+}
+
+
+
+
+#historyirn
+{
+    border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+}
+
+.historyhtml
+{
+
+border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+
+}
+
+
+#historysettlement
+{ border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+}
+
+
+#historycardholder
+{
+     border: medium solid;
+	border-color:#A9F5A9;
+	
+    float: left;
+    height: 130px;
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 269px;
+	   overflow: auto;
+}
+#datareserve
+{
+
+margin-top:-15px;
+float:left;
+margin-left:52px;
+
+}
+
+
+#datafunding
+{
+
+
+float:left;
+margin-left:8%;
+}
+
+
+#dataincome
+{
+
+
+float:left;
+margin-left:54;
+}
+
+
+
+
+#datacardholder
+{
+
+float:left;
+margin-left:54;
+}
+
+
+
+
+
+#datairn
+{
+
+
+float:left;
+margin-left:54;
+}
+
+
+
+#databalanceadjustment
+{
+
+
+float:left;
+margin-left:54;
+}
+
+
+
+
+#datasettlement
+{
+
+
+float:left;
+margin-left:54;
+}
+
+#adddivrowmain
+{
+    background-color: #A9F5A9;
+   
+    height: 40px;
+    margin-left: 52px;
+    margin-top: 21px;
+
+}
+
+
+
+
+#adddivrowmainfunding
+{
+display: none; 
+margin-top:40px; 
+margin-bottom:40px; 
+background-color:#A9F5A9;
+margin-left:
+
+}
+
+#adddivrowmainincome
+{
+display: none; 
+margin-top:40px; 
+margin-bottom:40px; 
+background-color:#A9F5A9;
+
+}
+
+
+
+.firstmenu
+
+{
+
+margin-left:29px;
+
+}
+
+
+
+
+
+
+
+#rowtittlereserve
+{
+ float: left;
+    height: 40px;
+    margin-bottom: -4px;
+    margin-left: 82px;
+    width: 725px;
+
+  }
+  
+  
+  
+
+#data_cont_reserve
+{
+width:700px;
+
+margin-top:20px;
+margin-bottom:20px;
+float:left;}
+
+
+
+
+
+.data_cont
+{
+
+width:700px;
+
+margin-top:5%;
+margin-bottom:5%;
+float:left;
+}
+
+
+
+
+
+
+.rowtittle
+{    float: left;
+    height: 11%;
+    
+    margin-left: 11.5;
+    width: 102%;
+}
+
+.label
+{
+    margin-bottom: -23px;
+    margin-left: 29px;
+    margin-top: 0px;
+	width: 730px;
+
+} 
+
+.paddtittle
+{
+text-align: center;
+    margin-top: 15px;
+   }
+
+
+.tittletextbox
+{
+
+    display: inline;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 290px;
+
+}
+
+
+
+ .bankmovementsbtn
+{
+
+    height: 23px;
+    margin-top: 30px;
+    width: 144px;
+    margin-left:-5px;
+	font-size:x-small;
+	font-weight:bold;
+  
+  }
+  
+  
+  .update
+{
+   border-width: 3px;
+    font-size: x-small;
+    font-weight: bold;
+    height: 25px;
+    margin-left: -5px;
+    margin-top: 21;
+    width: 240px;
+	 border-radius: 7px;
+	 background-color:#ffcc66;
+  
+  }
+  
+  .fundingaccountdiv
+  {
+      border-color: grey;
+    border-style: solid;
+    
+    height: auto;
+    margin-left: 30px;
+    
+    width: 787px;
+  
+  }
+  
+  .fieldsbankrecon
+  {
+    border-width:3px;
+     height: 20px;
+    margin-left: -6px;
+    width: 107px;
+	font-size:x-small;
+	font-weight:bold;
+	   float: left;
+	
+  }
+  
+  
+  .fieldsbankreconDate
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+   width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	
+  }
+  
+  
+  .fieldsbankreconDes
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+ width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	
+  }
+  
+  
+  .fieldsbankreconReq
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+    width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	
+  }
+  
+  
+  .fieldsbankreconDebit
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+  width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	
+  }
+  
+  .fieldsbankreconCredit
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+    width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  .fundingaccountdiv
+  {
+      border-color: grey;
+    border-style: solid;
+    
+    height: auto;
+    margin-left: 30px;
+    
+    width: 787px;
+  
+  }
+  
+  .fieldsbankreconnot
+  {
+    border-width:3px;
+     height: 20px;
+    margin-left: -6px;
+    width: 107px;
+	font-size:x-small;
+	font-weight:bold;
+	   float: left;
+	color:#FF4000;
+  }
+  
+  
+  .fieldsbankreconDatenot
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+   width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	color:#FF4000;
+  }
+  
+  
+  .fieldsbankreconDesnot
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+ width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	color:#FF4000;
+  }
+  
+  
+  .fieldsbankreconReqnot
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+    width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	color:#FF4000;
+  }
+  
+  
+  .fieldsbankreconDebitnot
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+  width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	color:#FF4000;
+  }
+  
+  .fieldsbankreconCreditnot
+  {
+  
+     height: 20px;
+    margin-left: -6px;
+    width: 106px;
+	font-size:x-small;
+	font-weight:bold;
+	float:left;
+	color:#FF4000;
+  }
+  
+  
+  
+  .btnprnt
+  {
+   border-width: 3px;
+    font-size:13px;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 1px;
+    margin-left: -5px;
+    width: 116px;
+    border-radius: 10px;
+	background-color:#94b8ff;
+	 font-family: book antigua;
+  }
+
+  
+  .divmargin
+  {
+        margin-left: 20px;
+    margin-top: 20px;
+    width: 791px;
+  }
+  
+  
+  
+  .accounttabs
+  
+  {
+    background-color: #FFCC66;
+    height: 38px;
+    margin-left: 9px;
+	margin-right:9px;
+	margin-top:9px;
+    width: 143px;
+	float:left;
+    border-radius: 10px;
+	
+     font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  
+ .ckbox
+{
+margin-left:-10px;
+margin-right:9px;
+float:left;
+
+} 
+
+.row
+{
+  float: left;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    width: 638px;
+}
+
+
+.rowfunding
+{
+width:770px;
+margin-bottom:0px;
+float:left;
+margin-left:23px;
+}
+
+
+
+.rowreserve
+{
+width:770px;
+margin-bottom:0px;
+float:left;
+margin-left:23px;
+}
+
+
+.rowincome
+{
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+.rowsettlement
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+.rowcardholder
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+.rowirn
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+.rowbalanceadjustment
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+.rowckbox
+{
+  float: left;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    width: 638px;
+}
+
+
+.rowckboxfunding
+{
+width:770px;
+margin-bottom:0px;
+float:left;
+margin-left:23px;
+}
+
+
+
+.rowckboxreserve
+{
+width:770px;
+margin-bottom:0px;
+float:left;
+margin-left:23px;
+}
+
+
+.rowckboxincome
+{
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+.rowckboxsettlement
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+.rowckboxcardholder
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+.rowckboxirn
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+.rowckboxbalanceadjustment
+{
+
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 23px;
+    width: 770px;
+}
+
+
+
+
+.reconfields
+
+{
+width:137px;
+height:26px;
+background-color:#FFCCFF;
+border-radius: 5px;
+}
+
+.chng
+{
+
+background-color:blue;
+width:61px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+}
+
+
+.tittleaddrowfunding
+{
+float:left;
+
+
+}
+.changetittle
+{
+    border-width: 3px;
+    font-size: x-small;
+    font-weight: bold;
+    height: 20px;
+    margin-left: -6px;
+    width: 111px;
+	   float: left;
+}
+
+
+
+.missingcodes
+{
+    border-width: 3px;
+    font-size: x-small;
+    font-weight: bold;
+    height: 20px;
+    margin-left: 20px;
+    width: 111px;
+	   float: left;
+	    border-radius: 5px;
+}
+
+
+
+
+#missingcodes
+{
+    display:none;
+    border-color: #FFCC66;
+    border-radius: 10px;
+    border-style: solid;
+    float: left;
+    margin-left: 45px;
+    margin-top:  -198px;
+    
+    width: 160px;
+}
+
+.chngfunding
+{
+
+background-color:blue;
+width: 94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	 float:left;
+}
+
+.chngreserve
+{
+
+background-color:blue;
+width: 94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	 float:left;
+}
+
+.chngincome
+{
+
+background-color:blue;
+width: 94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	 float:left;
+}
+
+.chngsettlement
+{
+
+background-color:blue;
+width:94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+.chngbalanceadjustment
+{
+
+background-color:blue;
+width:94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+
+.chngirn
+{
+
+background-color:blue;
+width:94px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	 float:left;
+}
+
+.chngcardholder
+{
+
+background-color:blue;
+width:94px;
+   
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+
+.confirmreserve
+{
+
+background-color:brown;
+width:94px;
+   float:left;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+}
+
+
+
+.confirmfunding
+{
+
+background-color:brown;
+width:94px;
+    float:left;
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+}
+
+
+.confirmincome
+{
+
+background-color:brown;
+width:61px;
+   
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+
+
+.confirmcardholder
+{
+
+background-color:brown;
+width:94px;
+   
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+
+
+.confirmsettlement
+{
+
+background-color:brown;
+width:94px;
+    
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+
+
+.confirmirn
+{
+
+background-color:brown;
+width:94px;
+   
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+
+.divaddmain
+{
+
+height:113px;
+margin-left:70px;
+    background-color: #A9F5A9;
+    
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+
+.pickrow
+{
+
+
+margin-left:26px;
+
+}
+
+
+
+
+.picktittle
+{
+
+
+margin-left:48px;
+
+}
+.confirmbalanceadjustment
+{
+
+background-color:brown;
+width:94px;
+    
+    color: white;
+    height: 20px;
+	 font-weight: bold;
+	  float:left;
+}
+.fieldsbankreconadd
+{
+
+    border-width: 2px;
+    float: left;
+    font-size: x-small;
+    font-weight: bold;
+    height: 29px;
+    margin-left: -1px;
+    width: 105px;
+   border-radius:5px;
+   background-color:#FFCCFF;
+
+}
+ 
+ 
+
+ 
+  
+  .paddtittle a {
+text-decoration: none;
+color: #ffffff;
+} 
+  
+ 
+
+h2 {  
+font-family:Arial,Helvetica,sans-serif;
+font-style:normal;
+color: #ffffff;
+vertical-align:middle;
+}
+
+  
+  .buttonReportGn
+  {
+  
+  width:200px;
+  height: 30px;
+  margin-top:5px;
+  }
+
+#selectdate
+
+{
+height:80px;
+width:1295px;
+background-color: #79AC46;
+margin-left:185px;
+color:#FFFFFF;
+font-weight:bold;
+border-radius: 25px;
+margin-top:14px;
+}  
+
+#container
+{
+
+position:absolute;
+left:-74px;
+top:-12px;
+
+}
+
+
+#navigation
+{
+   background-color: #FFFFFF;
+    border-radius: 10px;
+    color: brown;
+    float: left;
+    height: 24px;
+    margin-left: 80px;
+    margin-top: 33px;
+    width: 127px;
+}
+  
+  
+#navigation li
+{
+display : inline;
+padding-bottom: 4px;
+}  
+  
+  
+
+#navigation a
+{
+text-decoration: none;
+color: black;
+padding-top:1px;
+}  
+    
+  
+#datepicker
+{
+
+width: 140px;
+}  
+
+
+
+.dateinnerdiv
+{
+width:200px;
+height:50px;
+float:left;
+margin-left: 68px;
+}
+
+#accountdetails
+
+{
+ border-radius: 15px;
+width:150px;
+height:30px;
+float:left;
+margin-left:29px;
+margin-top:30px;
+font-weight:bold;
+padding-bottom:6px;
+font-family:book antigua;
+
+}
+  #reportGenerate
+  {
+  
+  width: 1351px;
+  
+  height: 20%;
+  background-color:#FFE4C4;
+  
+  
+  }
+  
+ .inputxtfetchdata
+ {
+      color: #5B8E28;
+    height: 35px;
+    margin-left: 1px;
+    margin-right: -7px;
+    overflow: auto;
+    width: 134px;
+  
+ }
+  
+  .inputxtfetchdatanm
+  {
+    height: 35px;
+    margin-left: 1px;
+    margin-right: -5px;
+    overflow: auto;
+    width: 136px;
+	color:brown;
+  }
+  
+  
+  
+  
+  
+  
+
+#ui-datepicker-div
+{
+width:130px;
+color:burlyWood;
+}
+
+#ui-datepicker-div a
+{
+text-decoration: none;
+color:#917689;
+}
+
+ #centerTable td
+{
+border-left-style:solid;
+border-top-style:solid;
+border-width: 1px;
+margin-left: -22px;
+border-color: burlyWood;
+width:20px;
+height:20px;}
+
+ #centerTable tr
+{
+width:20px;
+height:20px;
+font-size:10px;
+
+}
+
+.ui-datepicker-title
+{
+margin-top: 20px;
+text-align: center;
+}
+.ui-datepicker-next.ui-corner-all
+{
+
+float:right;
+margin-left;40px;
+}
+
+.ui-datepicker-calendar
+
+{
+margin-left:-5px;
+font-size:10px;
+
+}
+
+.ui-datepicker-days-cell-over  
+{
+
+
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all
+{
+
+font-size:12px;
+}
+
+.ui-datepicker-prev 
+{
+float:left;}
+
+.ui-icon-ui-icon-circle-triangle-e
+
+{
+float:right;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-corner-all {
+}
+.ui-widget-content {
+    background: url("../images/?new=eeeeee&w=1&h=100&f=png&q=100&fltr[]=over|textures/03_highlight_soft.png|0|0|100") repeat-x scroll 50% top #EEEEEE;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-radius: 10px;
+}
+.ui-widget-content {
+    background: url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+.ui-widget {
+    font-family: book antigua;
+    font-size: 1.1em;
+	
+	
+}
+.ui-datepicker {
+    display: none;
+    padding: 0.2em 0.2em 0;
+    width: 17em;
+}
+.ui-helper-clearfix {
+}
+
+.ui-dialog 
+{
+background-color:#ffcc66;
+
+}
+
+
+.ui-button
+{
+background-color:#94B8FF;
+  float: inherit;
+    margin-right: 66px;
+}
+
+
+
+.ui-dialog-buttonset
+{
+background-color:#FFCCFF;
+}
+
+
+
+  
+  #sampledialog
+  {
+  
+  border-radius:10px;
+  background-color:#FFCC66;
+  
+  }
+  
+  
+  #dialog-confirm
+  {
+  
+  border-radius:10px;
+
+  
+  }
+  .inputxtfetchdatadescription
+  
+  {
+  
+  background: none repeat scroll 0 0 #5B8E28;
+    float: left;
+    height: 100px;
+    margin-left: 1px;
+    width: 135px;
+    overflow:auto;
+    width: 135px;
+	color:white;
+  
+  }
+  
+ #divfortittledescription
+ { 
+ margin-left: 2px;
+ }
+  
+  #mainContainer
+  {
+  
+  
+  width:100%;  
+  overflow:auto;
+  height: 720px;
+  background-color:#45604D;  
+
+  
+  } 
+  
+#reportOutput
+{
+
+width:10100;
+  
+  
+  min-height:100px;
+  max-height:600px;
+  background-color:#E0FFFF; 
+  margin-top:20px;  
+  
+}  
+
+#outactivitydetails
+{
+width:10100;    
+  background-color:#E0FFFF; 
+  margin-top:4px;  
+  float:left;
+}
+
+#activitysubtotal
+{
+width:500px;
+margin-left:10px;
+float: left;
+
+}
+
+#vssoutput
+{        margin-left: -69px;
+    margin-top: 0;
+    width: 800px;
+float: left;
+}
+
+#containerreportOutputnm
+{
+margin-top:14px;
+width:1295px;  
+  overflow:auto;
+  height: 500px;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+
+
+}
+
+
+#containerreportOutputm
+{
+margin-top:14px;
+width:1295px;  
+  overflow:auto;
+  height: 500px;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+
+
+}
+
+
+
+#reportOutputnm
+{
+margin-top:50px;
+width:12376px; 
+  
+  min-height:100px;
+  max-height:500px;
+  background-color:#E0FFFF;  
+  
+}  
+
+
+
+#reportOutputm
+{
+margin-top:50px;
+width:9679px; 
+  
+  min-height:100px;
+  max-height:500px;
+  background-color:#E0FFFF;  
+  
+}  
+ 
+#bankMovements
+{
+    border-color: #ffcc66;
+    border-style: solid;
+    min-height: 600px;
+   border-radius:10px;
+    width: 900px;
+	   display: none;
+    height :auto;
+   margin-left: 74px;
+    margin-top: 37px;
+}
+
+
+/*
+#cardholderaccountdiv
+
+{
+
+margin-left:200px;
+float:left;
+
+}
+
+#incomeccountdiv
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+
+
+#bankaccount1div
+{
+float:left;
+}
+
+#bankaccount2div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount3div
+
+{
+float:left;
+
+}
+
+
+#bankaccount4div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount5div
+{
+
+margin-left:200px;
+float:left;
+
+
+}
+
+#bankaccount6div
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+*/
+ #mainContainerMainPage
+ 
+ {
+ 
+ width:1295px;
+  overflow:auto;
+  height: 60%;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+ 
+ 
+ }
+ 
+ #MainTittle
+ {
+ margin-left: 183px;
+    margin-top: 125px;
+    text-align: center;
+    width:900px;
+ 
+ }
+ 
+ 
+.ckboxfunding
+{
+float:left;
+}
+ 
+  
+ 
+.ckboxincome
+{
+float:left;
+}
+
+
+.ckboxsettlement
+{
+float:left;
+}
+
+
+.ckboxcardholder
+{
+float:left;
+}
+
+
+
+.ckboxreserve
+{
+float:left;
+}
+
+
+.ckboxbalanceadjustment
+{
+float:left;
+}
+
+
+
+
+.ckboxirn
+{
+float:left;
+}
+
+
+
+#MainMenu 
+
+{
+width:82%;
+height:207px; 
+margin-left:21.5%;
+background-color:#336600;
+border-radius: 25px;
+margin-bottom: -1%;
+}
+
+
+#MainMenu li
+
+{
+display:inline;
+
+color:#ffffff;
+
+border-radius:50px;
+ font-weight: bold
+
+}
+#MainMenuManpage
+
+{
+
+width:100%;
+height:180px; 
+
+background-color:#30483A;
+margin-top:-1%;
+
+}
+
+#MainMenuManpage li {
+    color: #00FF00;
+	border-radius:50px;
+}
+
+#heading
+{
+ margin-left: 236px;
+}
+
+#transcashlogo
+{
+
+float: left;
+height: 90px;
+margin-top: 2%;
+width: 225px;
+margin-left: 1%;
+
+}
+
+#transcashlogodivision
+{
+    float: left;
+    width: 1076px;
+}
+
+
+.listitem
+{
+
+background-color: #5B8E28;
+    display: inline;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 227px;
+}
+.paddtittle
+{
+text-align: center;
+    margin-top: 15px;
+   }
+
+
+.tittletextbox
+{
+
+display: inline;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 290px;
+
+}
+
+
+ .bankmovementsbtn
+{
+
+    height: 28px;
+    margin-top: 49px;
+    width: 145px;
+	 border-width: 2px;
+      border-radius: 10px;
+	  background-color:#94b8ff;
+  
+  }
+  
+  .listi
+  {
+  display:inline-block;
+  width:120px;
+  text-decoration:none;
+  background:#ffffff;
+     border-radius:5px;
+  
+  }
+  
+  
+  .listi a {
+text-decoration: none;
+ color: #000000;
+} 
+  .inputtxtsave
+  {
+   width:120px;
+   border-width:2px;
+   border-radius:5px;
+  }

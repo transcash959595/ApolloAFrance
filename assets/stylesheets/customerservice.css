@@ -1,0 +1,53 @@
+#container {
+	text-align: left;
+}
+.textcustomerservice
+{
+width :20%;
+height :2%;
+background-color:#FFCC66;
+ margin: 7%;
+ font-family:book antigua;
+ font-weight:bold;
+ font-size:12px;
+ text-align:center;
+}
+
+
+.optioncustomerservice
+{
+width :10%;
+height :2%;
+background-color:#FFCC66;
+font-family:book antigua;
+ font-weight:bold;
+ font-size:12px;
+ text-align:center;
+
+}
+#result
+{
+width:140%;
+min-height:400px;
+border-color:#FFCC66;
+border-radius:20px;
+border-width:3px;
+margin:auto;
+ border-style: solid;
+
+}
+
+#searchtext
+{
+
+width :20%;
+height :2%;
+}
+
+#MainMenu li {
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: inline;
+    font-weight: bold;
+	margin-left:18%;
+}

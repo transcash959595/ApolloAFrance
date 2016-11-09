@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>    
+    <employee>
+          <name>Mark</name>
+          <age>27</age>
+          <salary>$5000</salary>
+          </employee>
+          <employee>
+          <name>Jack</name>
+          <age>25</age>
+          <salary>$4000</salary>
+          </employee>
+          <employee>
+          <name>nav</name>
+          <age>25</age>
+          <salary>$4000</salary>
+    </employee>

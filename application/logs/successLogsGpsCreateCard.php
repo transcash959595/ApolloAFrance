@@ -1,0 +1,9 @@
+SimpleXMLElement Object ( [Ws_CreateCardResult] => SimpleXMLElement Object ( [WSID] => 500083 [IssCode] => PMT [TxnCode] => 10 [PublicToken] => 315496755 [ExternalRef] => SimpleXMLElement Object ( ) [LocDate] => 2016-04-27 [LocTime] => 083959 [ItemID] => 0 [ClientCode] => 0 [SysDate] => 2016-04-27 [ActionCode] => 000 [LoadValue] => 0 [IsLive] => false [StartDate] => 04/16 [ExpDate] => 04/19 [CVV] => 220 [MaskedPAN] => 999999******2358 ) ) 
+
+
+
+SimpleXMLElement Object ( [Ws_CreateCardResult] => SimpleXMLElement Object ( [WSID] => 500085 [IssCode] => PMT [TxnCode] => 10 [PublicToken] => 315507352 [ExternalRef] => SimpleXMLElement Object ( ) [LocDate] => 2016-04-27 [LocTime] => 084524 [ItemID] => 0 [ClientCode] => 0 [SysDate] => 2016-04-27 [ActionCode] => 000 [LoadValue] => 0 [IsLive] => false [StartDate] => 04/16 [ExpDate] => 04/19 [CVV] => 570 [MaskedPAN] => 999999******1684 ) ) 
+
+
+SimpleXMLElement Object ( [Ws_CreateCardResult] => SimpleXMLElement Object ( [WSID] => 500084 [IssCode] => PMT [TxnCode] => 10 [PublicToken] => 0 [ExternalRef] => SimpleXMLElement Object ( ) [LocDate] => 2016-04-27 [LocTime] => 084228 [ItemID] => 0 [ClientCode] => SimpleXMLElement Object ( ) [SysDate] => 2016-04-27 [ActionCode] => 000 [LoadValue] => 0 [IsLive] => false [StartDate] => SimpleXMLElement Object ( ) [ExpDate] => SimpleXMLElement Object ( ) [CVV] => SimpleXMLElement Object ( ) [MaskedPAN] => SimpleXMLElement Object ( ) ) )
+SimpleXMLElement Object ( [Ws_WebServiceResultResult] => SimpleXMLElement Object ( [WSID] => 500084 [IssCode] => PMT [PublicToken] => 0 [Response] => 000 [Description] => Normal approve [ActionCode] => 000 ) )  

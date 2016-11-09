@@ -1,0 +1,469 @@
+  a {
+text-decoration: none;
+color: #00FF00;
+} 
+  
+ 
+
+h2 {  
+font-family:Arial,Helvetica,sans-serif;
+font-style:normal;
+color: #00FF00;
+vertical-align:middle;
+}
+
+  
+  .buttonReportGn
+  {
+  
+  width:200px;
+  height: 30px;
+  margin-top:5px;
+  }
+  
+  
+  #reportGenerate
+  {
+  
+  width: 1351px;
+  
+  height: 20%;
+  background-color:#FFE4C4;
+  
+  
+  }
+  
+ .inputxtfetchdata
+ {
+  height: 50px;
+    margin-left: 1px;
+    margin-right: -5px;
+    overflow: hidden;
+    width: 138px;
+	display:inline;
+  
+ }
+  
+  .inputxtfetchdatanm
+  {
+    height: 50px;
+    margin-left: 1px;
+    margin-right: -5px;
+    overflow: hidden;
+    width: 136px;
+	display:inline;
+  }
+  
+  
+  .inputxtfetchdatadescription
+  
+  {
+  
+  background: none repeat scroll 0 0 green;
+    float: left;
+    height: 100px;
+    margin-left: 1px;
+    width: 135px;
+    overflow:hidden;
+    width: 135px;
+	color:white;
+  display:inline;
+  }
+  
+ #divfortittledescription
+ { 
+ margin-left: 2px;
+ }
+  
+  #mainContainer
+  {
+  
+  
+  width:1295px;
+  
+  overflow:hidden;
+  height: 700px;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+  display:inline;
+  
+  } 
+  
+#reportOutput
+{
+
+width:10100;
+  
+  
+  min-height:100px;
+  max-height:500px;
+  background-color:#E0FFFF; 
+  margin-top:20px;  
+  display:inline;
+  
+}  
+
+#reportOutputnm
+{
+margin-top:50px;
+width:12376px; 
+  
+  min-height:100px;
+  max-height:500px;
+  background-color:#E0FFFF;  
+  display:inline;
+}  
+
+ 
+#bankMovements
+{
+
+width:900px;
+  overflow:hidden;
+  height: 100%;
+ 
+  
+}
+
+
+
+#cardholderaccountdiv
+
+{
+
+margin-left:200px;
+float:left;
+
+}
+
+#incomeccountdiv
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+
+
+#bankaccount1div
+{
+float:left;
+}
+
+#bankaccount2div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount3div
+
+{
+float:left;
+
+}
+
+
+#bankaccount4div
+{
+
+margin-left:500px;
+float:left;
+
+
+}
+
+#bankaccount5div
+{
+
+margin-left:200px;
+float:left;
+
+
+}
+
+#bankaccount6div
+{
+
+margin-left:100px;
+margin-right:200px;
+float:left;
+
+
+}
+
+ #mainContainerMainPage
+ 
+ {
+ 
+ width:1295px;
+  overflow:hidden;
+  height: 60%;
+  background-color:#E0FFFF;  
+  margin-left:185px;
+ 
+ 
+ }
+ 
+ #MainTittle
+ {
+ margin-left: 183px;
+    margin-top: 125px;
+    text-align: center;
+    width:900px;
+ 
+ }
+ 
+ 
+ 
+ #Cardreload
+ {
+ margin-left: 100px;
+    margin-top: 25px;
+  
+    width: 421px;
+ }
+ 
+ 
+ .address
+ {
+ 
+ height: 25px;
+    
+    text-align: left;
+    width: 200px;}
+	
+
+.cardreloadgenaral	
+{
+
+ height: 25px;
+    
+    text-align: left;
+    width: 180px;
+	
+}	
+
+.inputxtsmall
+{
+
+height: 25px;
+    margin-left: 6px;
+    text-align: left;
+    width: 100px;
+}
+ 
+ 
+ .cardreloadgenericdivs 
+ {
+  margin-top:10px;
+ 
+ }
+ 
+ #cardnumberinput
+ {
+ 
+ margin-left:40px;
+ }
+ 
+ #cvv
+ {
+ 
+ margin-left:89px;}
+ 
+ 
+ #Expmonth
+ 
+ {
+ margin-left:104px;
+ }
+ 
+ #firstname
+ 
+ {
+ margin-left:143px;
+ }
+ 
+ 
+ #lastnameinput
+ 
+ 
+ {
+  margin-left:103px;
+ 
+ }
+ 
+ 
+ #address1input
+ {
+ margin-left:108px;
+ 
+ }
+ 
+ 
+ #address2input
+ 
+ 
+ {
+ margin-left:108px;
+ 
+ }
+ 
+ 
+ #cityinput
+ 
+ {
+ margin-left:145px;
+ }
+ 
+ 
+ #stateinput
+ 
+ {
+ margin-left:141px;
+ 
+ }
+ 
+ 
+ #zipcodeinput
+ {
+ margin-left:117px;
+ 
+ }
+ 
+ #tccardnumber
+ 
+ {
+ margin-left:18px;
+ 
+ }
+ 
+ 
+ #amounttoload
+ 
+ 
+ {
+ 
+ margin-left:64px;
+ }
+ 
+ 
+ 
+ #totalamountcharged
+ 
+ {
+ margin-left:153px;
+ 
+ }
+ 
+ 
+#MainMenu 
+
+{
+width:1295px;
+height:100px; 
+margin-left:185px;
+background-color:#C0C0C0;
+display:inline;
+
+}
+
+
+#MainMenu li
+
+{
+display:inline;
+
+color:00ff00;
+
+
+
+
+}
+#MainMenuManpage
+
+{
+
+width:1295px;
+height:120px; 
+margin-left:185px;
+background-color:#C0C0C0;
+margin-top:50px;
+
+}
+
+#MainMenuManpage li {
+    color: #00FF00;
+	display:inline;
+}
+
+#heading
+{
+
+margin-top:120px;
+display:inline;
+}
+
+#transcashlogo
+{
+
+float: right;
+height: 96px;
+margin-left: 3px;
+margin-right: 0;
+margin-top: 0;
+width: 333px;
+
+display:inline;
+}
+
+
+
+
+.listitem
+{
+
+background-color: green;
+    display: inline;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 32px;
+    width: 227px;
+}
+.paddtittle
+{
+text-align: center;
+    margin-top: 15px;
+   }
+
+
+.tittletextbox
+{
+
+display: inline;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 290px;
+
+}
+
+
+ .bankmovementsbtn
+{
+
+ height: 55px;
+    margin-top: 49px;
+    width: 150px;
+  
+  
+  }
+  
+  

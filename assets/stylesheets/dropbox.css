@@ -1,0 +1,527 @@
+
+a:link { text-decoration:none;}
+a:visited {text-decoration:none;}
+a:active { text-decoration: underline; }
+#nav ul {
+    height: 64px;
+    list-style-type: none;
+    margin: -22px 0 0 289px;
+    padding: 0;
+    width: 688px;
+	border-radius: 10px;
+	
+	
+}
+
+#mainContainer {
+    
+    margin-top: 1%;
+    background-color:#45604D;
+}
+
+#submitbutton
+{
+       
+}
+
+#nav {
+
+background-color: green;
+ border-radius: 15px;
+}
+
+
+.icon
+{
+
+float:left;
+width:100x;
+height:20px;
+}
+.listnavtext
+{
+
+margin-top:10px;
+}
+
+.listelement
+
+
+{
+
+float:left;
+width:139px;
+font-size: 10px;
+ height: 16px;
+}
+
+
+.renamefolder
+
+
+{
+
+float:left;
+width:139px;
+font-size: 10px;
+ height: 22px;
+  font-family: book antigua;
+      background-color: #94B8FF;
+	  	text-align:center;
+
+}
+
+
+.deletefolder
+
+
+{
+
+    background-color: #FF0000;
+    float: left;
+    font-family: book antigua;
+    font-size: 10px;
+    font-weight: bold;
+    height: 22px;
+    width: 149px;
+	text-align:center;
+ 
+}
+
+
+.listelementfilename
+
+
+{
+
+float:left;
+width:291px;
+font-size: 13px;
+ height: 16px;
+ font-weight:bold;
+ font-family:book antigua;
+  
+}
+.listelementdelete
+
+
+{
+
+float:left;
+width:149px;
+font-size: 10px;
+ height: 22px;
+ font-weight:bold;
+ font-family:book antigua;
+ background-color:#FF0000;
+}
+
+
+.listelementdel
+
+
+{
+
+float:left;
+width:139px;
+font-size: 10px;
+ height: 16px;
+ font-weight:bold;
+ font-family:book antigua;
+}
+.listelementtittle
+
+{
+float:left;
+width:149px;
+margin-left:-4px;
+font-weight:bold;
+ font-family:book antigua;
+  background-color: #FFCC66;
+    border-radius: 5px;
+}
+
+
+.listelementtittlefilename
+
+{
+float:left;
+width:300px;
+margin-left:-3px;
+font-weight:bold;
+ font-family:book antigua;
+  background-color: #FFCC66;
+    border-radius: 5px;
+
+}
+.dirlist
+{
+
+float:left;
+width:900px;
+margin-left:318px;
+font-weight:bold;
+ font-family:book antigua;
+}
+
+#files
+{
+
+float:left;
+
+margin-left:20px;
+border-radius: 10px;
+     
+	 height:auto;
+	 border-color:#ffcc66;
+	 border-style:solid;
+	border-width:3px;
+	margin-top:20px;
+    margin-left:35px;
+}
+
+.folderlist
+{
+
+float:left;
+
+margin-left:35px;
+border-radius: 10px;
+     width:500px;
+	 height:auto;
+	 border-color:#ffcc66;
+	 border-style:solid;
+	border-width:3px;
+	margin-top:19px;
+
+}
+
+.foldername
+{
+
+
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    margin-bottom: 3%;
+    margin-left: 3.5%;
+    margin-top: 3.5%;
+    width: 34%;
+}
+.addfolder
+
+{
+
+float:left;
+
+margin-left:35px;
+border-radius: 10px;
+     width:685px;
+	 height:auto;
+	 border-color:#ffcc66;
+	 border-style:solid;
+	border-width:3px;
+	margin-top:19px;
+
+}
+.folders
+{
+
+float:left;
+margin-left:20px;
+width:100%;
+	 
+
+}
+
+
+
+.folders
+{
+
+float:left;
+margin-left:20px;
+width:100%;
+	 
+
+}
+
+.fold
+{
+
+
+ float:left;
+ display: none;
+ margin-left:30px;
+}
+#folders
+{
+ width:900px;
+
+}
+
+.form
+{
+
+margin-top:2.5%;
+width:29%;
+height:38px;
+float:left;
+
+}
+.form input[type="file"]{
+  z-index: 999;
+  line-height: 0;
+  font-size: 50px;
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+  cursor: pointer;
+  _cursor: hand;
+  margin: 0;
+  padding:0;
+  left:0;
+  }
+ .add-photo-btn{
+   position:relative;
+  
+   cursor:pointer;
+   text-align:center;
+     background-color: #FFCC66;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+    height: 38px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: .5%;
+    width: 29%;
+   display:block;
+   
+   line-height:39px;
+   
+ }
+ .form input[type="text"]{
+   float:left;
+   height:27px;
+   border-radius:10px;
+   margin-top:.5%;
+   width:60%;
+   
+ }
+ 
+.downloadelement
+
+
+{
+float:left;
+height: 20px;
+margin-top: 1px;
+width: 142px;
+background-color:#ffffff;
+}
+
+
+
+.
+
+.showdirstructure
+{
+float:left;
+height: 20px;
+margin-top: 1px;
+margin-left:1%;
+background-color:#ffffff;
+}
+
+
+
+
+.showdirstructure_root
+{
+float:left;
+height: 20px;
+margin-top: 1px;
+
+background-color:#ffffff;
+}
+
+
+.dirlisting
+{
+   border-color: #FFCC66;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+	width:94%;
+	
+	border-style:solid;
+	border-width:3px;
+	margin-left:35px;
+	height:auto;
+	margin-bottom: 30px;
+
+}
+
+.showfolderdefault
+{
+
+    background-color: #FFCC66;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    width: 20%;
+}
+
+
+.createfolder
+{
+
+    background-color: #94B8FF;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    font-family: book antigua;
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    margin-left: 16.5%;
+   
+    margin-top: 2.5%;
+    width: 30%;
+}
+
+
+
+.uploaddiv
+
+{
+color: green;
+ font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-left: 35px;
+    padding-left: 22px;
+	border-radius: 10px;
+     width:1200px;
+	 height:100px;
+	 border-color:#ffcc66;
+	 border-style:solid;
+	border-width:3px;
+}
+
+li {
+
+   
+    float: left;
+    height: 40px;
+    text-align: center;
+    width: 281px;
+	margin-left: -3px;
+	
+	
+	
+}
+
+
+#username
+{
+color:#C0C0C0;
+font-weight:bold; 
+float:right; 
+font-size:20px;
+margin-top:-31px;
+margin-right: 10px;
+}
+
+#main {
+    
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-left: 35px;
+    padding-left: 22px;
+    width: 1200px;
+	margin-top:10px;
+	border-radius: 10px;
+	border-color:#ffcc66;
+	border-style:solid;
+	border-width:3px;
+}
+
+#file
+{ float: left;
+    height: 30px;
+    margin-left: 232px;
+    margin-top: 31px;
+    width: 261px;
+}
+
+#uploaddiv
+
+{
+color: green;
+ font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-left: 35px;
+    padding-left: 22px;
+	border-radius: 10px;
+     width:1200px;
+	 height:100px;
+	 border-color:#ffcc66;
+	 border-style:solid;
+	border-width:3px;
+}
+
+
+
+#fetdatamain
+{
+margin-left:40px;
+margin-top:50px;
+
+}
+
+#fetchdata {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -1px;
+    
+    padding-left: 1px;
+    width: 144px;
+	margin-top:10px;
+}
+
+
+#charlesdir
+{
+width:400px;
+height:100px;
+
+
+}
+
+
+
+#user1dir
+{
+width:400px;
+height:100px;
+
+
+}

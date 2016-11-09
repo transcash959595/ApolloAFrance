@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="nojs html" lang="en-US">
+ <head>
+
+  
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.1.1.343"/>
+  <title>Card Order Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- CSS -->
+  
+  <link rel="stylesheet" type='text/css'  href="<?php echo base_url('/assets/stylesheets/muse/site_global.css')?>" media="all"/>
+  <link rel="stylesheet" type='text/css'  href="<?php echo base_url('/assets/stylesheets/muse/master_a-master.css')?>" media="all"/>
+  <link rel="stylesheet" type='text/css'  href="<?php echo base_url('/assets/stylesheets/muse/card-order-tool.css')?>" media="all"/>
+  <link REL="STYLESHEET" TYPE="text/css" HREF="<?php echo base_url('/assets/stylesheets/bankreconv2.css')?>" media="all"/> 
+  <!-- Other scripts -->
+  <div id="MainMenu">
+
+<div id="transcashlogodivision">
+
+<img id="transcashlogo" src="<?php echo base_url('/assets/images/logo.png')?>" />
+<input type='hidden' id="serveraddr" value="<?php echo $_SERVER['SERVER_ADDR'] ?>" />
+
+</div>
+<ul id="heading">
+
+<li class="listitemtittleleft"> <p class="paddtittle"><a href="<?php echo site_url('Main')?>"><img src="<?php echo base_url('/assets/images/home.png')?>" alt="" class="imgheader" ></a>  </p></li>
+
+<li class="listitemtittleright"> <p class="paddtittle"><a href="<?php echo site_url('Login/logout')?>"><img src="<?php echo base_url('/assets/images/logout.png')?>" alt="" class="imgheader" ></a>  </p></li>
+
+
+
+
+
+</ul>
+
+</div>
+   </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- column -->
+  
+   <div class="clearfix colelem" id="u3002-4"><!-- content -->
+    <p>Order Cards</p>
+   </div>
+   <div class="clearfix colelem" id="u3003"><!-- column -->
+    <div class="position_content" id="u3003_position_content">
+     <div class="clearfix colelem" id="pu3004-4"><!-- group -->
+      <div class="clearfix grpelem" id="u3004-4"><!-- content -->
+       <p>Description</p>
+      </div>
+      <div class="clearfix grpelem" id="u3007-4"><!-- content -->
+       <p>Status</p>
+      </div>
+      <div class="clearfix grpelem" id="u3494-4"><!-- content -->
+       <p>Amount</p>
+      </div>
+      <div class="clearfix grpelem" id="u3074-4"><!-- content -->
+       <p>Type</p>
+      </div>
+      <div class="clearfix grpelem" id="u3010-4"><!-- content -->
+       <p>Order Date</p>
+      </div>
+      <div class="clearfix grpelem" id="u3013-4"><!-- content -->
+       <p>Available Balance</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu3005-4"><!-- group -->
+      <div class="clearfix grpelem" id="u3005-4"><!-- content -->
+       <p>Super Market</p>
+      </div>
+      <div class="clearfix grpelem" id="u3008-4"><!-- content -->
+       <p>Processing</p>
+      </div>
+      <div class="clearfix grpelem" id="u3497-4"><!-- content -->
+       <p>$100</p>
+      </div>
+      <div class="clearfix grpelem" id="u3077-4"><!-- content -->
+       <p>CHG</p>
+      </div>
+      <div class="clearfix grpelem" id="u3062-4"><!-- content -->
+       <p>$200</p>
+      </div>
+      <div class="clearfix grpelem" id="u3011-4"><!-- content -->
+       <p>01/01/2016</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu3006-4"><!-- group -->
+      <div class="clearfix grpelem" id="u3006-4"><!-- content -->
+       <p>ATM Deposit</p>
+      </div>
+      <div class="clearfix grpelem" id="u3009-4"><!-- content -->
+       <p>Completed</p>
+      </div>
+      <div class="clearfix grpelem" id="u3500-4"><!-- content -->
+       <p>$200</p>
+      </div>
+      <div class="clearfix grpelem" id="u3080-4"><!-- content -->
+       <p>DPT</p>
+      </div>
+      <div class="clearfix grpelem" id="u3065-4"><!-- content -->
+       <p>$400</p>
+      </div>
+      <div class="clearfix grpelem" id="u3012-4"><!-- content -->
+       <p>01/15/2016</p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="Button clearfix colelem" id="buttonu3020"><!-- container box -->
+    <div class="clearfix grpelem" id="u3021-4"><!-- content -->
+     <p>Next &gt;&gt;</p>
+    </div>
+   </div>
+   <div class="Button rounded-corners clearfix colelem" id="buttonu3068"><!-- container box -->
+    <div class="clearfix grpelem" id="u3069-4"><!-- content -->
+     <p><a href="<?php echo site_url('Customerservice/pageview/card-order-tool-2')?>">Continue</a></p>
+    </div>
+   </div>
+   <div class="verticalspacer"></div>
+  </div>
+  <!-- JS includes -->
+  
+  
+  <!-- Other scripts -->
+  
+   </body>
+</html>
